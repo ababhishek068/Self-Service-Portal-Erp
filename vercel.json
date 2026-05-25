@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "installCommand": "npm ci",
-  "buildCommand": "npm run build",
+  "installCommand": "cd self-service-erp && npm ci",
+  "buildCommand": "cd self-service-erp && npm run build",
   "outputDirectory": "self-service-erp/dist"
 }
