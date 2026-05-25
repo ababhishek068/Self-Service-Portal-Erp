@@ -1,10 +1,13 @@
 {
   "name": "self-service-erp-root",
   "private": true,
+  "workspaces": [
+    "self-service-erp"
+  ],
   "scripts": {
-    "dev": "npm --prefix self-service-erp run dev --",
-    "build": "npm --prefix self-service-erp run build --",
-    "lint": "npm --prefix self-service-erp run lint --",
-    "preview": "npm --prefix self-service-erp run preview --"
+    "dev": "npm run dev --workspace self-service-erp --",
+    "build": "npm run build --workspace self-service-erp --",
+    "lint": "npm run lint --workspace self-service-erp --",
+    "preview": "npm run preview --workspace self-service-erp --"
   }
 }
