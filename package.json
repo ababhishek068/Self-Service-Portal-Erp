@@ -1,0 +1,10 @@
+{
+  "name": "self-service-erp-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix self-service-erp run dev --",
+    "build": "npm --prefix self-service-erp run build --",
+    "lint": "npm --prefix self-service-erp run lint --",
+    "preview": "npm --prefix self-service-erp run preview --"
+  }
+}
